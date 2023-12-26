@@ -31,7 +31,11 @@ class _HeaderState extends State<Header> {
     print(placemark);
     Placemark place = placemark[0];
     setState(() {
-      city = place.administrativeArea!;
+      if (place.locality == "") {
+        city = place.administrativeArea!;
+      } else {
+        city = place.locality!;
+      }
     });
   }
 

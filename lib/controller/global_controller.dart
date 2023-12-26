@@ -11,6 +11,7 @@ class GlobalController extends GetxController {
   RxBool checkloading() => _isloading;
   RxDouble getlattitude() => _lattitude;
   RxDouble getlongitude() => _longitude;
+  RxInt currentIndex = 0.obs;
   final weatherdata = WeatherData().obs;
 
   WeatherData getdata() {
@@ -19,8 +20,16 @@ class GlobalController extends GetxController {
 
   @override
   void onInit() {
-    getlocation();
+    if (_isloading.isTrue) {
+      getlocation();
+    } else {
+      getCurrentIndex();
+    }
     super.onInit();
+  }
+
+  RxInt getCurrentIndex() {
+    return currentIndex;
   }
 
   getlocation() async {
