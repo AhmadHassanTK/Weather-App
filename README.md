@@ -7,16 +7,13 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # Weather-App
 
 Fetching the weather data by using API
->>>>>>> 4c1ac22c530f22e3e921e1ab8cf41e8aaeb9ba0d
+![Screenshot_20240328-002935](https://github.com/AhmadHassanTK/Weather-App/assets/107587039/c27783a1-3265-4e94-88b4-1c02656f86fa)
+![Screenshot_20240328-002913](https://github.com/AhmadHassanTK/Weather-App/assets/107587039/be9098d2-bf66-4235-8fbc-0aff87d9e5e1)
+![Screenshot_20240328-002853](https://github.com/AhmadHassanTK/Weather-App/assets/107587039/d4b06c63-7d85-4b21-b6c7-7e78cf2f8f3d)
+
+
+
+
